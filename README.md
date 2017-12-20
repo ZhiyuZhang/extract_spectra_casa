@@ -1,6 +1,16 @@
 # extract_spectra_casa
 extract spectra and plot/explore redshifts within CASA
 
+extract.py is for extracting spectral files from datacubes, using CASA. 
+
+The output are ascii files.
+
+
+You also need to convert the ascii file into class format. 
+
+readcasa.class is for the conversion. 
+
+
 zd.class and zd.hlp are for CLASS/Gildas: 
 
 https://www.iram.fr/IRAMFR/GILDAS/
