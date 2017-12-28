@@ -1,4 +1,8 @@
 # extract_spectra_casa
+
+test_spectrum.txt is a spectra extracted from CASA, in the ascii format. 
+
+
 extract spectra and plot/explore redshifts within CASA
 
 extract.py is for extracting spectral files from datacubes, using CASA. 
@@ -30,5 +34,26 @@ example:
 >  zd 2.34  100  ! (km/s) 
 
 
-updated 20 Dec. 2017 - zy
 
+
+
+# --------------  updated 28 Dec. 2017 - zy
+Resample : 
+
+
+There are a few different methods to resample a simple spectrum. 
+
+
+Resampling Spectra While Maintaining Diagonal Covariance
+
+https://github.com/sbailey/resample-spectra/blob/master/py/TestResample.ipynb
+
+Rebinning 
+
+https://github.com/ACCarnall/SpectRes
+
+
+
+
+
+updated 28 Dec. 2017 - zy
