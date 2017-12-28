@@ -15,6 +15,21 @@ import matplotlib.pyplot as plt
 import numpy as np 
 import sys
 
+spectrum  = np.loadtxt("data.txt")
+old_x     = spectrum[:,0]
+old_y     = spectrum[:,1]
+#old_x     = old_x[::-1]
+#old_y     = old_y[::-1]
+
+new_x     = np.arange(6510., 9085, 6.3) 
+
+## initialisation for input and output arrays 
+#old_x      = np.arange(0, 125)
+#old_y      = np.random.rand(len(old_x))
+#new_x      = np.arange(-3, 127, 3)
+
+
+
 def resample(old_x, old_y, new_x):
     if old_x[1] - old_x[0] < 0:
         old_x   = old_x[::-1]
@@ -53,7 +68,7 @@ def resample(old_x, old_y, new_x):
             if end > 0:
                 sub_weight[-1]      = end / old_width[0]
                 sub_array_width[-1] = end 
-            new_y[i]        = np.sum(sub_array_y * sub_weight * sub_array_width[0]) / np.sum(sub_array_width)
+            new_y[i]        = np.sum(sub_array_y * sub_weight) / np.sum(sub_array_width)
     
             print( " ~~~~~ ") 
             print('sub_array_y:    ', sub_array_y)
@@ -67,4 +82,12 @@ def resample(old_x, old_y, new_x):
             new_y[i]        = np.nan
     return new_y 
     
-   
+plt.clf()
+f, ax1        = plt.subplots(1, sharex=True, sharey=False)
+l             = ax1.step(old_x, old_y,                        where='mid', color="blue", lw=0.3)
+l             = ax1.step(new_x, resample(old_x, old_y, new_x), where='mid', color="red", lw=0.3)
+ax1.set_xlim(6800, 9000)
+ax1.legend(loc=7, borderaxespad=0.)
+#plt.show()
+f.savefig('test.pdf', bbox_inches='tight', pad_inches=0.1)
+    
