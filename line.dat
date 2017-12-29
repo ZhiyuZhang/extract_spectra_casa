@@ -1,0 +1,501 @@
+# Restfreq(MHz)  line   
+  115271.2018    CO10
+  230538.0000    CO21
+  345795.9899    CO32
+  461040.7682    CO43
+  576267.9305    CO54
+  691473.0763    CO65
+  806651.8060    CO76
+  921799.7000    CO87
+ 1036912.3930    CO98
+ 1151985.4520    CO10-9
+ 1267014.4860    CO11-10
+ 1381995.1050    CO12-11
+ 1496922.9090    CO1312
+ 1611793.5180    CO1413
+ 1726602.5066    CO1514
+ 1841345.5060    CO1615
+ 1956018.1390    CO1716
+ 2070615.9930    CO1817
+ 2185134.6800    CO1918
+ 2299569.8420    CO2019
+ 2413917.1130    CO2120
+ 2528172.0600    CO2221
+ 2642330.3464    CO2322
+ 2756387.5840    CO2423
+ 2870339.4070    CO2524
+ 2984181.4550    CO2625
+   492160.7    CI10
+   809342.0    CI21
+ 1461131.41    NII205 
+ 1900536.90    CII158
+ 2459374.00    NII112 
+ 2060068.00    OI145 
+ 4744777.50    OI63 
+
+
+
+  437150.8    H2O753-660       
+ 1207638.7    H2O422-413
+ 1228788.8    H2O220-211
+ 1410618.1    H2O523-514
+
+
+ 1153126.8   o-H2O3_1_2-2_2_1    
+ 1097365.1   o-H2O3_1_2-3_0_3    
+ 1162911.9   o-H2O3_2_1-3_1_2    
+  380197.4   o-H2O4_1_4-3_2_1    
+  448001.2   o-H2O4_2_3-3_3_0    
+  620701.2   o-H2O5_3_2-4_4_1    
+ 1158324.1   o-H2O6_3_4-5_4_1    
+  439150.9   o-H2O6_4_3-5_5_0    
+  443018.4   o-H2O7_5_2-6_6_1    
+ 1146621.5   o-H2O7_2_5-8_1_8    
+ 1168358.7   o-H2O8_5_4-7_6_1    
+ 321225.7    o-H2O10_2_9-9_3_6   
+
+
+ 1113343.1    p-H2O1_1_1-0_0_0  
+  987926.7    p-H2O2_0_2-1_1_1 
+  752033.2    p-H2O2_1_1-2_0_2 
+  183310.0    p-H2O3_1_3-2_2_0 
+  916171.6    p-H2O4_2_2-3_3_1 
+  325153.0    p-H2O5_1_5-4_2_2 
+  970315.2    p-H2O5_2_4-4_3_1 
+  470889.1    p-H2O6_4_2-5_5_1 
+  488491.1    p-H2O6_2_4-7_1_7 
+ 1172526.0    p-H2O7_4_4-6_5_1 
+  437346.7    p-H2O7_5_3-6_6_0 
+ 1190829.1    p-H2O8_5_3-7_6_2 
+  906206.1    p-H2O9_2_8-8_3_5 
+
+
+    110201.4    13CO1-0 
+    220398.7    13CO2-1 
+    330588.0    13CO3-2 
+    440765.2    13CO4-3 
+    550926.3    13CO5-4 
+    661067.3    13CO6-5 
+    771184.1    13CO7-6 
+    881272.8    13CO8-7 
+    991329.3    13CO9-8 
+   1101349.6     13CO10-9
+
+
+  109782.2    C18O1-0    
+  219560.4    C18O2-1    
+  329330.6    C18O3-2    
+  439088.8    C18O4-3    
+  548831.0    C18O5-4    
+  658553.3    C18O6-5    
+  768251.6    C18O7-6    
+  877922.0    C18O8-7    
+  987560.4    C18O9-8    
+ 1097162.9    C18O10-9    
+
+
+
+
+                
+  536810.63     CH3OH-1                            
+  644325.21     NH2                                 
+  648784.23     NH2                                 
+  721927.40     H2O+721                          
+  742033.00     H2O+(202-111)(5/3-3/2)          
+  746193.80     H2O+(202-111)(3/2-3/2)           
+  902217.00     NH2-1                           
+  907433.00     HN2-2                           
+  982947.60     H2O+++                           
+  995360.00     H2O+                           
+ 1000001.02     NH(1122-0123)                      
+ 1115204.00     H2O+(111-000)(3/2-1/2)           
+ 1139560.60     H2O+(111-000)(1/2-1/2)           
+ 1198835.99     HCO                                  
+ 1214852.94     NH3(201-100)                        
+ 1215245.71     NH3(211-110)                        
+ 1444018.37     NH2-1                                
+ 1447986.28     NH2-2                                
+ 1470426.36     H3O+(740-741)                       
+ 
+
+  909158.80     OH+(101-012)                     
+  971805.30     OH+(122-011)                     
+ 1033118.00     OH+(112-012)                     
+
+ 982256.9    H3O+(312-303)  
+# https://academic.oup.com/mnras/article-lookup/doi/10.1093/mnras/stv2023#supplementary-data
+
+
+#  draw upper      986098./(1+redshift)      CH3OH(102-91)  
+#  draw upper      1005642./(1+redshift)     CH3OH(104-103)  
+#  
+#  
+#  
+#  
+#  
+#  !-------- absorption lines ----------
+#  pen 6 /wei 1
+#  draw upper      556936.0/(1+redshift)    H2O110-101 
+#  draw upper      474689.1/(1+redshift)    H2O533-440
+#  draw upper      1232476.22/(1+redshift)  HF(1-0)       
+#  draw upper       835078.95/(1+redshift)  CH+(1-0)                          
+#  pen 0 /wei 0.5
+#  
+#  
+#  ! -----------masers --------------
+#  pen 3 /wei 1
+#  draw upper     325152.9/(1+redshift)    H2O515-422
+#  
+#  pen 0 /wei 0.5
+#  
+#  
+#  draw upper 532723.9/(1+redshift)        CH532
+#  
+#  
+#  draw upper    113168.7/(1+redshift)  CN1_0.5-0_0.5 
+#  draw upper    113494.9/(1+redshift)  CN1_1.5-0_0.5 
+#  draw upper    226332.7/(1+redshift)  CN2_1.5-1_1.5 
+#  draw upper    226659.0/(1+redshift)  CN2_1.5-1_0.5 
+#  draw upper    226876.5/(1+redshift)  CN2_2.5-1_1.5 
+#  draw upper    339487.6/(1+redshift)  CN3_2.5-2_2.5 
+#  draw upper    340031.3/(1+redshift)  CN3_2.5-2_1.5 
+#  draw upper    340248.8/(1+redshift)  CN3_3.5-2_2.5 
+#  draw upper    452628.6/(1+redshift)  CN4_3.5-3_3.5 
+#  draw upper    453389.8/(1+redshift)  CN4_3.5-3_2.5 
+#  draw upper    453607.3/(1+redshift)  CN4_4.5-3_3.5 
+#  draw upper    565751.1/(1+redshift)  CN5_4.5-4_4.5 
+#  draw upper    566729.8/(1+redshift)  CN5_4.5-4_3.5 
+#  draw upper    566947.3/(1+redshift)  CN5_5.5-4_4.5 
+#  draw upper    678850.6/(1+redshift)  CN6_5.5-5_5.5 
+#  draw upper    680046.8/(1+redshift)  CN6_5.5-5_4.5 
+#  draw upper    680264.3/(1+redshift)  CN6_6.5-5_5.5 
+#  draw upper    791922.4/(1+redshift)  CN7_6.5-6_6.5 
+#  draw upper    793336.1/(1+redshift)  CN7_6.5-6_5.5 
+#  draw upper    793553.6/(1+redshift)  CN7_7.5-6_6.5 
+#  draw upper    904961.9/(1+redshift)  CN8_7.5-7_7.5  
+#  draw upper    906593.1/(1+redshift)  CN8_7.5-7_6.5  
+#  draw upper    906810.6/(1+redshift)  CN8_8.5-7_7.5  
+#  draw upper   1017964.5/(1+redshift)  CN9_8.5-8_8.5  
+#  draw upper   1019813.2/(1+redshift)  CN9_8.5-8_7.5  
+#  draw upper   1020030.7/(1+redshift)  CN9_9.5-8_8.5  
+#  draw upper   1130925.5/(1+redshift)  CN10_9.5-9_9.5 
+#  draw upper   1132991.8/(1+redshift)  CN10_9.5-9_8.5 
+#  draw upper   1133209.3/(1+redshift)  CN10_10-9_9.5  
+#  draw upper   1243840.5/(1+redshift)  CN11_10-10_10. 
+#  draw upper   1246124.2/(1+redshift)  CN11_10-10_9.5 
+#  draw upper   1246341.7/(1+redshift)  CN11_11-10_10. 
+#  draw upper   1356704.7/(1+redshift)  CN12_11-11_11. 
+#  draw upper   1359205.9/(1+redshift)  CN12_11-11_10. 
+#  draw upper   1359423.4/(1+redshift)  CN12_12-11_11. 
+#  draw upper   1469513.5/(1+redshift)  CN13_12-12_12. 
+#  draw upper   1472232.2/(1+redshift)  CN13_12-12_11. 
+#  draw upper   1472449.7/(1+redshift)  CN13_13-12_12. 
+#  
+#  
+#  
+#  
+#  draw upper  93172.0/(1+redshift)        N2H+2-1
+#  draw upper 186344.8/(1+redshift)        N2H+2-1
+#  draw upper 279511.7/(1+redshift)        N2H+3-2
+#  draw upper 372672.5/(1+redshift)        N2H+4-3
+#  draw upper 465825.0/(1+redshift)        N2H+5-4
+#  draw upper 558966.7/(1+redshift)        N2H+6-5
+#  
+#  
+#  
+#  draw upper 262004.2/(1+redshift)        C2H3-2
+#  draw upper 349338.7/(1+redshift)        C2H4-3
+#  draw upper 436660.4/(1+redshift)        C2H5-4
+#  draw upper 523970.4/(1+redshift)        C2H6-5
+#  
+#  
+#  
+#  draw upper  97981.0/(1+redshift)         CS2-1  
+#  draw upper 146969.0/(1+redshift)         CS3-2  
+#  draw upper 195954.2/(1+redshift)         CS4-3  
+#  draw upper 244935.6/(1+redshift)         CS5-4  
+#  draw upper 293912.1/(1+redshift)         CS6-5  
+#  draw upper 342882.9/(1+redshift)         CS7-6  
+#  draw upper 391846.9/(1+redshift)         CS8-7  
+#  draw upper 440803.2/(1+redshift)         CS9-8  
+#  draw upper 489750.9/(1+redshift)         CS10-9 
+#  
+#  
+#  draw upper  90663.6/(1+redshift)  HNC1-0    
+#  draw upper 181324.8/(1+redshift)  HNC2-1    
+#  draw upper 271981.1/(1+redshift)  HNC3-2    
+#  draw upper 362630.3/(1+redshift)  HNC4-3    
+#  draw upper 453269.9/(1+redshift)  HNC5-4    
+#  draw upper 543897.6/(1+redshift)  HNC6-5    
+#  draw upper 634510.8/(1+redshift)  HNC7-6    
+#  draw upper 725107.3/(1+redshift)  HNC8-7    
+#  draw upper 815684.7/(1+redshift)  HNC9-8    
+#  
+#  
+#  draw upper   89188.5/(1+redshift)     HCO+1-0   
+#  draw upper  178375.1/(1+redshift)     HCO+2-1   
+#  draw upper  267557.6/(1+redshift)     HCO+3-2   
+#  draw upper  356734.3/(1+redshift)     HCO+4-3   
+#  draw upper  445903.0/(1+redshift)     HCO+5-4   
+#  draw upper  535061.8/(1+redshift)     HCO+6-5   
+#  draw upper  624208.7/(1+redshift)     HCO+7-6   
+#  draw upper  713342.1/(1+redshift)     HCO+8-7   
+#  draw upper  802458.3/(1+redshift)     HCO+9-8   
+#  
+#  
+#  
+#  draw upper  88631.8/(1+redshift)  HCN1--0   
+#  draw upper 177261.1/(1+redshift)  HCN2--1   
+#  draw upper 265886.4/(1+redshift)  HCN3--2   
+#  draw upper 354505.5/(1+redshift)  HCN4--3   
+#  draw upper 443116.1/(1+redshift)  HCN5--4   
+#  draw upper 531716.3/(1+redshift)  HCN6--5   
+#  draw upper 620304.0/(1+redshift)  HCN7--6   
+#  draw upper 708877.0/(1+redshift)  HCN8--7   
+#  draw upper 797433.3/(1+redshift)  HCN9--8   
+#  
+#  draw upper 801571.888/(1+redshift)  H2CO11(4,7)-10(4,6)
+#  
+#  
+#  
+#  
+#  
+#  draw upper 316341.7/(1+redshift)    SO1_1-1_0   
+#  draw upper 286340.2/(1+redshift)    SO1_1-0_1   
+#  draw upper 329385.5/(1+redshift)    SO2_1-1_0   
+#  draw upper 299384.0/(1+redshift)    SO2_1-0_1   
+#  draw upper 236452.3/(1+redshift)    SO2_1-1_2   
+#  draw upper 138178.6/(1+redshift)    SO3_4-2_3   
+#  draw upper 372434.1/(1+redshift)    SO2_2-0_1   
+#  draw upper 309502.4/(1+redshift)    SO2_2-1_2   
+#  draw upper 210202.6/(1+redshift)    SO2_2-2_3   
+#  draw upper  86094.0/(1+redshift)    SO2_2-1_1   
+#  draw upper 408636.1/(1+redshift)    SO3_2-0_1   
+#  draw upper 345704.5/(1+redshift)    SO3_2-1_2   
+#  draw upper 246404.6/(1+redshift)    SO3_2-2_3   
+#  draw upper 109252.2/(1+redshift)    SO3_2-2_1   
+#  draw upper 178605.4/(1+redshift)    SO4_5-3_4   
+#  draw upper 438641.3/(1+redshift)    SO3_3-1_2   
+#  draw upper 339341.5/(1+redshift)    SO3_3-2_3   
+#  draw upper 201162.8/(1+redshift)    SO3_3-3_4   
+#  draw upper 129138.9/(1+redshift)    SO3_3-2_2   
+#  draw upper 504676.3/(1+redshift)    SO4_3-1_2   
+#  draw upper 405376.4/(1+redshift)    SO4_3-2_3   
+#  draw upper 267197.7/(1+redshift)    SO4_3-3_4   
+#  draw upper 158971.8/(1+redshift)    SO4_3-3_2   
+#  draw upper  66034.9/(1+redshift)    SO4_3-3_3   
+#  draw upper 511522.9/(1+redshift)    SO4_4-2_3   
+#  draw upper 373344.2/(1+redshift)    SO4_4-3_4   
+#  draw upper 194738.8/(1+redshift)    SO4_4-4_5   
+#  draw upper 172181.4/(1+redshift)    SO4_4-3_3   
+#  draw upper 219949.4/(1+redshift)    SO5_6-4_5   
+#  draw upper 611552.4/(1+redshift)    SO5_4-2_3   
+#  draw upper 473373.8/(1+redshift)    SO5_4-3_4   
+#  draw upper 294768.4/(1+redshift)    SO5_4-4_5   
+#  draw upper 206176.0/(1+redshift)    SO5_4-4_3   
+#  draw upper 100029.6/(1+redshift)    SO5_4-4_4   
+#  draw upper 588564.9/(1+redshift)    SO5_5-3_4   
+#  draw upper 409959.5/(1+redshift)    SO5_5-4_5   
+#  draw upper 215220.7/(1+redshift)    SO5_5-4_4   
+#  draw upper 190010.1/(1+redshift)    SO5_5-5_6   
+#  draw upper 261843.7/(1+redshift)    SO6_7-5_6   
+#  draw upper 725199.5/(1+redshift)    SO6_5-3_4   
+#  draw upper 546594.2/(1+redshift)    SO6_5-4_5   
+#  draw upper 326644.8/(1+redshift)    SO6_5-5_6   
+#  draw upper 251825.8/(1+redshift)    SO6_5-5_4   
+#  draw upper 136634.8/(1+redshift)    SO6_5-5_5   
+#  draw upper 668215.3/(1+redshift)    SO6_6-4_5   
+#  draw upper 448265.9/(1+redshift)    SO6_6-5_6   
+#  draw upper 258255.8/(1+redshift)    SO6_6-5_5   
+#  draw upper 186422.2/(1+redshift)    SO6_6-6_7   
+#  draw upper 121621.2/(1+redshift)    SO6_6-6_5   
+#  draw upper 304077.8/(1+redshift)    SO7_8-6_7   
+#  draw upper 843144.2/(1+redshift)    SO7_6-4_5   
+#  draw upper 623194.8/(1+redshift)    SO7_6-5_6   
+#  draw upper 361351.1/(1+redshift)    SO7_6-6_7   
+#  draw upper 296550.1/(1+redshift)    SO7_6-6_5   
+#  draw upper 174928.9/(1+redshift)    SO7_6-6_6   
+#  draw upper 749552.0/(1+redshift)    SO7_7-5_6   
+#  draw upper 487708.3/(1+redshift)    SO7_7-6_7   
+#  draw upper 301286.1/(1+redshift)    SO7_7-6_6   
+#  draw upper 183630.5/(1+redshift)    SO7_7-7_8   
+#  draw upper 126357.2/(1+redshift)    SO7_7-7_6   
+#  draw upper 346528.5/(1+redshift)    SO8_9-7_8   
+#  draw upper 963909.1/(1+redshift)    SO8_7-5_6   
+#  draw upper 702065.4/(1+redshift)    SO8_7-6_7   
+#  draw upper 515643.2/(1+redshift)    SO8_7-6_6   
+#  draw upper 397987.5/(1+redshift)    SO8_7-7_8   
+#  draw upper 340714.2/(1+redshift)    SO8_7-7_6   
+#  draw upper 214357.0/(1+redshift)    SO8_7-7_7   
+#  draw upper 832019.1/(1+redshift)    SO8_8-6_7   
+#  draw upper 527941.2/(1+redshift)    SO8_8-7_8   
+#  draw upper 344310.6/(1+redshift)    SO8_8-7_7   
+#  draw upper 181412.7/(1+redshift)    SO8_8-8_9   
+#  draw upper 129953.7/(1+redshift)    SO8_8-8_7   
+#  draw upper 389120.9/(1+redshift)    SO9_10-8_9  
+#  draw upper 782514.8/(1+redshift)    SO9_8-7_8   
+#  draw upper 598884.3/(1+redshift)    SO9_8-7_7   
+#  draw upper 435986.3/(1+redshift)    SO9_8-8_9   
+#  draw upper 384527.3/(1+redshift)    SO9_8-8_7   
+#  draw upper 254573.6/(1+redshift)    SO9_8-8_8   
+#  draw upper 915270.0/(1+redshift)    SO9_9-7_8   
+#  draw upper 568741.5/(1+redshift)    SO9_9-8_9   
+#  draw upper 387328.8/(1+redshift)    SO9_9-8_8   
+#  draw upper 179620.5/(1+redshift)    SO9_9-9_10  
+#  draw upper 132755.2/(1+redshift)    SO9_9-9_8   
+#  
+#  
+#  
+#  
+#  
+#  draw upper     480.269/(1+redshift)  CH_3_OH 
+#  draw upper     482.959/(1+redshift)  CH_3_OH 
+#  draw upper     483.141/(1+redshift)  CH_3_OH 
+#  draw upper     486.941/(1+redshift)  CH_3_OH 
+#  draw upper     487.532/(1+redshift)  CH_3_OH 
+#  draw upper     489.037/(1+redshift)  CH_3_OH 
+#  draw upper     489.751/(1+redshift)  CS      
+#  draw upper     492.161/(1+redshift)  C       
+#  draw upper     492.279/(1+redshift)  CH_3_OH 
+#  draw upper     493.734/(1+redshift)  CH_3_OH 
+#  draw upper     504.294/(1+redshift)  CH_3_OH 
+#  draw upper     505.834/(1+redshift)  H_2_CO  
+#  draw upper     509.146/(1+redshift)  H_2_CO  
+#  draw upper     510.156/(1+redshift)  H_2_CO  
+#  draw upper     510.238/(1+redshift)  H_2_CO  
+#  draw upper     513.076/(1+redshift)  H_2_CO  
+#  draw upper     520.179/(1+redshift)  CH_3_OH 
+#  draw upper     525.666/(1+redshift)  H_2_CO  
+#  draw upper     531.716/(1+redshift)  HCN     
+#  draw upper     535.062/(1+redshift)  HCO^+^  
+#  draw upper     538.571/(1+redshift)  CH_3_OH 
+#  draw upper     538.689/(1+redshift)  CS      
+#  draw upper     542.001/(1+redshift)  CH_3_OH 
+#  draw upper     542.082/(1+redshift)  CH_3_OH 
+#  draw upper     543.898/(1+redshift)  HNC     
+#  draw upper     548.831/(1+redshift)  C^18^O  
+#  draw upper     550.926/(1+redshift)  ^13^CO  
+#  draw upper     556.936/(1+redshift)  H_2_O   
+#  draw upper     558.967/(1+redshift)  N_2_H^+^
+#  draw upper     561.899/(1+redshift)  H_2_CO  
+#  draw upper     572.498/(1+redshift)  o-NH_3_ 
+#  draw upper     576.268/(1+redshift)  CO      
+#  draw upper     576.708/(1+redshift)  H_2_CO  
+#  draw upper     579.151/(1+redshift)  CH_3_OH 
+#  draw upper     579.460/(1+redshift)  CH_3_OH 
+#  draw upper     583.145/(1+redshift)  H_2_CO  
+#  draw upper     583.309/(1+redshift)  H_2_CO  
+#  draw upper     584.450/(1+redshift)  CH_3_OH 
+#  draw upper     590.278/(1+redshift)  CH_3_OH 
+#  draw upper     590.440/(1+redshift)  CH_3_OH 
+#  draw upper     590.791/(1+redshift)  CH_3_OH 
+#  draw upper     600.331/(1+redshift)  H_2_CO  
+#  draw upper     616.980/(1+redshift)  CH_3_OH 
+#  draw upper     620.304/(1+redshift)  HCN     
+#  draw upper     624.208/(1+redshift)  HCO^+^  
+#  draw upper     626.626/(1+redshift)  CH_3_OH 
+#  draw upper     627.170/(1+redshift)  CH_3_OH 
+#  draw upper     627.558/(1+redshift)  CH_3_OH 
+#  draw upper     629.921/(1+redshift)  CH_3_OH 
+#  draw upper     631.703/(1+redshift)  H_2_CO  
+#  draw upper     638.818/(1+redshift)  CH_3_OH 
+#  draw upper     647.082/(1+redshift)  H_2_CO  
+#  draw upper     652.096/(1+redshift)  N_2_H^+^
+#  draw upper     658.553/(1+redshift)  C^18^O  
+#  draw upper     661.067/(1+redshift)  ^13^CO  
+#  draw upper     665.442/(1+redshift)  CH_3_OH 
+#  draw upper     674.991/(1+redshift)  CH_3_OH 
+#  draw upper     675.135/(1+redshift)  CH_3_OH 
+#  draw upper     675.613/(1+redshift)  CH_3_OH 
+#  draw upper     678.785/(1+redshift)  CH_3_OH 
+#  draw upper     686.732/(1+redshift)  CH_3_OH 
+#  draw upper     687.225/(1+redshift)  CH_3_OH 
+#  draw upper     691.473/(1+redshift)  CO      
+#  draw upper     708.877/(1+redshift)  HCN     
+#  draw upper     713.341/(1+redshift)  HCO^+^  
+#  draw upper     713.982/(1+redshift)  CH_3_OH 
+#  draw upper     719.665/(1+redshift)  CH_3_OH 
+#  draw upper     720.441/(1+redshift)  CH_3_OH 
+#  draw upper     728.862/(1+redshift)  CH_3_OH 
+#  draw upper     736.034/(1+redshift)  H_2_S   
+#  draw upper     745.210/(1+redshift)  N_2_H^+^
+#  draw upper     749.072/(1+redshift)  H_2_CO  
+#  draw upper     752.033/(1+redshift)  H_2_O   
+#  draw upper     762.636/(1+redshift)  CH_3_OH 
+#  draw upper     766.710/(1+redshift)  CH_3_OH 
+#  draw upper     768.252/(1+redshift)  C^18^O  
+#  draw upper     771.184/(1+redshift)  ^13^CO  
+#  draw upper     772.454/(1+redshift)  CH_3_OH 
+#  draw upper     797.433/(1+redshift)  HCN     
+#  draw upper     806.652/(1+redshift)  CO      
+#  draw upper     809.342/(1+redshift)  C       
+#  draw upper     811.445/(1+redshift)  CH_3_OH 
+#  draw upper     812.550/(1+redshift)  CH_3_OH 
+#  draw upper     830.349/(1+redshift)  CH_3_OH 
+#  draw upper     835.138/(1+redshift)  CH^+^   
+#  draw upper     838.307/(1+redshift)  N_2_H^+^
+#  draw upper     851.415/(1+redshift)  CH_3_OH 
+#  draw upper     857.959/(1+redshift)  CH_3_OH 
+#  draw upper     860.459/(1+redshift)  CH_3_OH 
+#  draw upper     881.273/(1+redshift)  ^13^CO  
+#  draw upper     885.971/(1+redshift)  HCN     
+#  draw upper     891.557/(1+redshift)  HCO^+^  
+#  draw upper     894.614/(1+redshift)  CH_3_OH 
+#  draw upper     921.800/(1+redshift)  CO      
+#  draw upper     931.386/(1+redshift)  N_2_H^+^
+#  draw upper     980.636/(1+redshift)  HCO^+^  
+#  draw upper     987.927/(1+redshift)  H_2_O   
+#  draw upper     991.329/(1+redshift)  ^13^CO  
+#  draw upper     993.108/(1+redshift)  H_2_S   
+#  draw upper    1036.912/(1+redshift)  CO      
+#  draw upper    1057.118/(1+redshift)  CH_3_OH 
+#  draw upper    1062.981/(1+redshift)  HCN     
+#  draw upper    1069.694/(1+redshift)  HCO^+^  
+#  draw upper    1072.837/(1+redshift)  H_2_S   
+#  draw upper    1097.365/(1+redshift)  H_2_O   
+#  draw upper    1101.350/(1+redshift)  ^13^CO  
+#  draw upper    1113.343/(1+redshift)  H_2_O   
+#  draw upper    1151.449/(1+redshift)  HCN     
+#  draw upper    1151.985/(1+redshift)  CO      
+#  draw upper    1153.127/(1+redshift)  H_2_O   
+#  draw upper    1153.549/(1+redshift)  CH_3_OH 
+#  draw upper    1158.727/(1+redshift)  HCO^+^  
+#  draw upper    1162.912/(1+redshift)  H_2_O   
+#  draw upper    1168.452/(1+redshift)  p-NH_3_ 
+#  draw upper    1201.630/(1+redshift)  CH_3_OH 
+#  draw upper    1211.330/(1+redshift)  ^13^CO  
+#  draw upper    1214.853/(1+redshift)  o-NH_3_ 
+#  draw upper    1228.789/(1+redshift)  H_2_O   
+#  draw upper    1232.476/(1+redshift)  HF      
+#  draw upper    1239.890/(1+redshift)  HCN     
+#  draw upper    1267.014/(1+redshift)  CO      
+#  draw upper    1496.923/(1+redshift)  CO      
+#  draw upper    1541.843/(1+redshift)  CH_3_OH 
+#  draw upper    1611.794/(1+redshift)  CO      
+#  draw upper    1661.008/(1+redshift)  H_2_O   
+#  draw upper    1669.905/(1+redshift)  H_2_O   
+#  draw upper    1716.770/(1+redshift)  H_2_O   
+#  draw upper    1726.603/(1+redshift)  CO      
+#  draw upper    1763.601/(1+redshift)  p-NH_3_ 
+#  draw upper    1763.823/(1+redshift)  p-NH_3_ 
+#  draw upper    1841.346/(1+redshift)  CO      
+#  draw upper    1900.537/(1+redshift)  C^+^    
+#  
+#  
+#  
+#  
+#  
+#  
+#  
+#  draw upper      500034.402/(1+redshift)   HC3N55-54 
+#  draw upper      500431.536/(1+redshift)   SO218(9,9)-19(8,12)   
+#  draw upper      552003.51/(1+redshift)    H2CO523-606 
+#  
+#  
+#  
+#  ! Other lines  ------ https://www.aanda.org/articles/aa/abs/2015/07/aa24918-14/aa24918-14.html -
+#  
+#  draw upper      102548.0/(1+redshift)   CH3CCH  
+#  
+#  
+#  

@@ -8,6 +8,8 @@ frequency, flux
 new array: 2-D array
 frequency, flux
 
+updated on 29 Dec 2017 
+- Zhiyu Zhang pmozhang@gmail.com
 
 """
 
@@ -16,12 +18,20 @@ import numpy as np
 import sys
 
 def resample(old_x, old_y, new_x):
-    if old_x[1] - old_x[0] < 0:
+
+    old_step = old_x[1] - old_x[0] 
+    new_step = new_x[1] - new_x[0] 
+
+    if old_step < 0:
         old_x   = old_x[::-1]
         old_y   = old_y[::-1]
         reverse = True 
     else: 
         reverse = False
+
+    if  new_step < abs(old_step):
+        sys.exit("Err: Output width is smaller than input width.")
+
 
     # define output flux array, using the same size of the x axis
     new_y = np.empty(len(new_x))
@@ -40,12 +50,12 @@ def resample(old_x, old_y, new_x):
     
     
     for i in range(len(new_x)):
-        index = np.where( (old_x - (old_width[0] / 2) < new_width[0] / 2 + new_x[i]   ) & (new_x[i] - new_width[0] / 2 < old_x +  (old_width[0]) / 2))
+        index = np.where( (old_x - (old_width[0] / 2) < new_width[0] / 2 + new_x[i] ) & (new_x[i] - new_width[0] / 2 < old_x +  (old_width[0]) / 2))
         if index[0].size > 1:
             sub_array_width     = old_width[index]
             sub_array_y         = old_y[index]
             sub_weight          = np.ones(len(index[0]))
-            start               = np.abs(old_x_edge[index][0]  - new_x_edge[i]  )
+            start               = np.abs(old_x_edge[index][1]  - new_x_edge[i]  )
             end                 = np.abs(old_x_edge[index][-1] - new_x_edge[i+1]) 
             if start > 0:
                 sub_weight[0]       = start / old_width[0]
@@ -55,11 +65,11 @@ def resample(old_x, old_y, new_x):
                 sub_array_width[-1] = end 
             new_y[i]        = np.sum(sub_array_y * sub_weight * sub_array_width[0]) / np.sum(sub_array_width)
     
-            print( " ~~~~~ ") 
-            print('sub_array_y:    ', sub_array_y)
-            print('sub_weight:     ', sub_weight)
-            print('sub_array_width ', sub_array_width)
-            print( " ~~~~~ ") 
+#           print( " --------- ") 
+#           print('sub_array_y:    ', sub_array_y)
+#           print('sub_weight:     ', sub_weight)
+#           print('sub_array_width:', sub_array_width)
+#           print( " --------- ") 
     
         elif index[0].size == 1:  
             new_y[i]        = old_y[index]
