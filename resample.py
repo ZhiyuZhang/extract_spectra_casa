@@ -1,6 +1,6 @@
 """
-Resample spectra  
-From Old Array to  New Array 
+Resample spectra, using simple binning method. 
+
 
 old array: 2-D array
 frequency, flux 

@@ -13,6 +13,10 @@ In [1]: from zd import *
 In [2]: zd('test_spectrum.txt',3,100)
 
 
+Written by Zhiyu Zhang
+pmozhang@gmail.com
+1st update 29 Dec. 2017 
+
 """
 
 from astropy.io import ascii
