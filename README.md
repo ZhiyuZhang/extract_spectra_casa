@@ -40,6 +40,12 @@ example:
 # --------------  updated 28 Dec. 2017 - zy
 Resample : 
 
+resample.py does not work well. 
+This can be tested with test_resample.py. 
+
+To be solved.
+
+# --------------  updated 27 Sep 2021 - zy
 
 There are a few different methods to resample a simple spectrum. 
 
