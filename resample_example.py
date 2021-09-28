@@ -13,16 +13,28 @@ frequency, flux
 
 import matplotlib.pyplot as plt
 import numpy as np 
-import sys
+import sys,os
 
 #spectrum  = np.loadtxt("data.txt")
 spectrum  = np.loadtxt("test_spectrum.txt")
 old_x     = spectrum[:,0]
 old_y     = spectrum[:,1]
-#old_x     = old_x[::-1]
-#old_y     = old_y[::-1]
 
-new_x     = np.arange(80., 90, 0.1) 
+#old_x     = np.arange(80,90,0.05)
+#old_y     = old_x**2
+#new_x     = np.arange(80., 90, 0.1) 
+
+#old_x     = np.arange(0,20,0.05)
+#old_y     = old_x**2
+
+old_x = np.arange(1,100,1)
+old_y = old_x**2
+
+
+new_x  = np.arange(1,100,10)
+#new_x     = np.arange(0,20,1.5) 
+
+
 
 ## initialisation for input and output arrays 
 #old_x      = np.arange(0, 125)
@@ -91,4 +103,4 @@ l             = ax1.step(new_x, resample(old_x, old_y, new_x), where='mid', colo
 ax1.legend(loc=7, borderaxespad=0.)
 #plt.show()
 f.savefig('test.pdf', bbox_inches='tight', pad_inches=0.1)
-stop    
+os.system("open test.pdf")
